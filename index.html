@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jeevaj's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio
+						</h1>
+						<p>A showcase of my projects and skills.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Jeevraj Rathore</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Portfolio</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/jeevraj-rathore-29088a217/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Jeevraj-Rathore" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">About me</span>
+									<h3>Aspiring DevOps Engineer</a></h3>
+									<p>I have good understanding of Linux and Scripting languages (Python and Bash).<br />
+									I am proficient with various development, testing and deployment tools – Git, Docker, Kubernetes, Jenkins and Ansible.<br />
+									Have good understanding of DevOps key concepts like Infrastructure as Code (IaC).<br />
+									Also have experience in developing CI/CD pipelines.</p>
+								</header>
+								<ul class="actions special">
+									<li><h1>Projects</h1></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2>Automated CI/CD Pipeline</h2>
+									</header>
+									<a class="image fit"><img src="https://source.unsplash.com/2400x700/?programmers" alt="" /></a>
+									<p>• Used AWS, Git, GitHub, Jenkins and Docker.<br />
+										• Used a simple web page.<br />
+										• Used Jenkins to build and test.<br />
+										• Then deployed it on Docker.</p>
+									<ul class="actions special">
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Append data to the file and store the modified file to a S3 bucket in AWS account</h2>
+									</header>
+									<a class="image fit"><img src="https://source.unsplash.com/2400x700/?coding" alt="" /></a>
+									<p>• Created a Lambda function that will assume the IAM role to read file from S3 bucket.<br />
+										• Lambda function will read the JSON file and add one more key.<br />
+										• Then Lambda function will store the modified file to a S3 bucket in AWS account</p>
+									<ul class="actions special">
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Automated deletion of S3 bucket when Mandatory tag is missing</h2>
+									</header>
+									<a class="image fit"><img src="https://source.unsplash.com/2400x700/?software" alt="" /></a>
+									<p>• Created a Lambda function that is triggered by S3’s CreateBucket event.<br />
+										• The lambda function upon invocation will parse the event and identify the bucket that was just created.<br />
+										• And then it will check if that Mandatory tag is present or not.<br />
+										• If the tag is missing then the lambda function will delete the bucket.</p>
+									<ul class="actions special">
+									</ul>
+								</article>
+								<!--
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								-->
+							</section>
+
+							<section class="skills">
+								<ul class="actions special">
+									<h1>Skills</h1>
+								</ul>
+								<header>
+									<h2>• Python</h2>
+									<h2>• Linux</h2>
+									<h2>• Git</h2>
+									<h2>• AWS</h2>
+									<h2>• Jenkins</h2>
+									<h2>• Docker</h2>
+									<h2>• Ansible</h2>
+									<h2>• Kubernetes</h2>
+								</header>
+							</section>
+
+						<!-- Footer -->
+						<!--
+							<footer>
+								<div class="pagination">
+									<a href="#" class="previous">Prev</a>
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>369, Officers Campus Extension, Sirsi Road,<br />
+								Jaipur, 302012</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p>(+91) 7427822778</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>jeevraj232@gmail.com</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/jeevraj-rathore-29088a217/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/Jeevraj-Rathore" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+				-->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
